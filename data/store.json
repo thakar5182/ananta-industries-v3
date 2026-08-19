@@ -1,0 +1,186 @@
+{
+  "users": [
+    {
+      "id": "u_admin",
+      "name": "Ananta Admin",
+      "username": "admin",
+      "role": "admin",
+      "passwordHash": "scrypt$c9fef299e5f5119094870fd27767a65b$3b275e35b60eedb21d090b1d0f5fa16ca6b77bb375bded0b83ecbfb5d784cbb7c959edc1d890d1c034e509273af1e3d0251b051f51e084d8db786a1c41b36f1d",
+      "active": true
+    },
+    {
+      "id": "u_biller",
+      "name": "Billing Operator",
+      "username": "biller",
+      "role": "biller",
+      "passwordHash": "scrypt$8c614c3a0a371fb106242ec0d0e84c8c$925c0506a70d53d8f2e0f926ecc965706fa42f9d9fc883c6f4049be154eac82b63734c57d3c49e462c2df76b5a2efd186b43f84ef5ca923f2943781c788ce77c",
+      "active": true
+    }
+  ],
+  "clients": [
+    {
+      "id": "c1",
+      "name": "Shree Engineering Works",
+      "company": "Shree Engineering Works",
+      "phone": "+91 98765 43210",
+      "email": "purchase@shree.example",
+      "gst": "24ABCDE1234F1Z5",
+      "address": "Odhav GIDC, Ahmedabad, Gujarat",
+      "notes": "Regular industrial buyer",
+      "state": "Gujarat",
+      "stateCode": "24",
+      "pincode": "",
+      "deliveryAddress": ""
+    },
+    {
+      "id": "c2",
+      "name": "Patel Machinery",
+      "company": "Patel Machinery",
+      "phone": "+91 98250 11122",
+      "email": "accounts@patelmachinery.example",
+      "gst": "24AAECP1122B1Z3",
+      "address": "Vatva GIDC, Ahmedabad, Gujarat",
+      "notes": "30-day payment terms",
+      "state": "Gujarat",
+      "stateCode": "24",
+      "pincode": "",
+      "deliveryAddress": ""
+    },
+    {
+      "id": "c3",
+      "name": "Nova Panels Pvt Ltd",
+      "company": "Nova Panels Pvt Ltd",
+      "phone": "+91 97277 22110",
+      "email": "stores@novapanels.example",
+      "gst": "24AAFCN4433P1Z8",
+      "address": "Naroda, Ahmedabad, Gujarat",
+      "notes": "Silicone gasket customer",
+      "state": "Gujarat",
+      "stateCode": "24",
+      "pincode": "",
+      "deliveryAddress": ""
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "sku": "AI-CC-001",
+      "name": "Concrete Machine Cone",
+      "category": "Industrial Rubber",
+      "unit": "pcs",
+      "price": 280,
+      "gst": 18,
+      "stock": 126,
+      "lowStock": 20,
+      "hsn": "4016",
+      "purchasePrice": 173.6,
+      "sellingPrice": 280
+    },
+    {
+      "id": "p2",
+      "sku": "AI-SG-002",
+      "name": "Square Gasket",
+      "category": "Sealing",
+      "unit": "pcs",
+      "price": 95,
+      "gst": 18,
+      "stock": 242,
+      "lowStock": 40,
+      "hsn": "4016",
+      "purchasePrice": 58.9,
+      "sellingPrice": 95
+    },
+    {
+      "id": "p3",
+      "sku": "AI-MB-003",
+      "name": "Metal Cover Rubber Bush",
+      "category": "Composite Part",
+      "unit": "pcs",
+      "price": 180,
+      "gst": 18,
+      "stock": 88,
+      "lowStock": 15,
+      "hsn": "4016",
+      "purchasePrice": 111.6,
+      "sellingPrice": 180
+    },
+    {
+      "id": "p4",
+      "sku": "AI-OR-004",
+      "name": "Rubber Ring / O Ring",
+      "category": "Sealing",
+      "unit": "pcs",
+      "price": 22,
+      "gst": 18,
+      "stock": 560,
+      "lowStock": 100,
+      "hsn": "4016",
+      "purchasePrice": 13.64,
+      "sellingPrice": 22
+    },
+    {
+      "id": "p5",
+      "sku": "AI-RB-005",
+      "name": "Rubber Bush",
+      "category": "Vibration Control",
+      "unit": "pcs",
+      "price": 68,
+      "gst": 18,
+      "stock": 310,
+      "lowStock": 50,
+      "hsn": "4016",
+      "purchasePrice": 42.16,
+      "sellingPrice": 68
+    },
+    {
+      "id": "p6",
+      "sku": "AI-SG-006",
+      "name": "Silicone Gasket Panel Box",
+      "category": "Silicone",
+      "unit": "pcs",
+      "price": 145,
+      "gst": 18,
+      "stock": 67,
+      "lowStock": 18,
+      "hsn": "3926",
+      "purchasePrice": 89.9,
+      "sellingPrice": 145
+    }
+  ],
+  "invoices": [],
+  "suppliers": [
+    {
+      "id": "sup1",
+      "name": "Gujarat Rubber Raw Materials",
+      "phone": "+91 99090 11223",
+      "email": "sales@grrm.example",
+      "gst": "24AAACG7788P1Z2",
+      "address": "Naroda GIDC, Ahmedabad, Gujarat"
+    }
+  ],
+  "purchases": [],
+  "quotations": [],
+  "payments": [],
+  "stockMovements": [],
+  "creditNotes": [],
+  "settings": {
+    "companyName": "ANANTA INDUSTRIES",
+    "companyAddress": "GIDC Naroda, Ahmedabad, Gujarat",
+    "companyGSTIN": "",
+    "companyState": "Gujarat",
+    "companyStateCode": "24",
+    "companyPincode": "",
+    "companyPhone": "",
+    "companyEmail": "",
+    "authorizedSignatory": "",
+    "bankName": "",
+    "accountNo": "",
+    "ifsc": "",
+    "upiId": "",
+    "defaultTerms": "Subject to Ahmedabad jurisdiction. Goods once sold are governed by agreed commercial terms.",
+    "invoicePrefix": "AI",
+    "quotationPrefix": "QT"
+  },
+  "expenses": [],
+  "auditLogs": []
+}
