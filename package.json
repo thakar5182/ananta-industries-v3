@@ -1,0 +1,54 @@
+{
+  "name": "ananta-industries-management-system",
+  "version": "3.0.1",
+  "private": true,
+  "main": "desktop/main.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "web": "node server.js",
+    "desktop": "electron .",
+    "build:win": "electron-builder --win nsis",
+    "build:win-portable": "electron-builder --win portable",
+    "verify": "node --check server.js && node --check desktop/main.js && node --check public/app.js",
+    "start:render": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "electron": "^38.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.anantaindustries.management",
+    "productName": "Ananta Industries Management System",
+    "files": [
+      "public/**/*",
+      "data/**/*",
+      "server.js",
+      "desktop/**/*",
+      "package.json"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "public/assets/ananta-icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "artifactName": "Ananta-Industries-Secure-GST-System-${version}-${arch}.${ext}"
+  },
+  "description": "Secure animated Ananta Industries desktop business system with GST billing, inventory, finance, RBAC and polished A4 GST invoices",
+  "productName": "Ananta Industries Business System",
+  "engines": {
+    "node": ">=20 <23"
+  }
+}
